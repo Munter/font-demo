@@ -7,8 +7,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild": "rm -rf dist",
-    "build": "cp -r src dist"
+    "build": "cp -r src dist",
+    "surge": "npm run build && surge -d font-demo-baseline.surge.sh dist"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "surge": "^0.19.0"
+  }
 }
