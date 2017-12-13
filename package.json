@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild": "rm -rf dist",
     "build": "cp -r src dist",
-    "surge": "npm run build && surge -d font-demo-baseline.surge.sh dist"
+    "surge": "npm run build && surge -d font-demo-subfont.surge.sh dist"
   },
   "author": "",
   "license": "MIT",
